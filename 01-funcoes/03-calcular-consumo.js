@@ -9,4 +9,4 @@ function Carro(distancia, litros){
     return litros/distancia
 }
 
-console.log(`${Carro(10, 2)} litros/km`);
+console.log(`${Carro(100, 2)} litros/km`);
