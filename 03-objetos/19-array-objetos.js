@@ -5,3 +5,21 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos = [
+  { titulo: 'The Legend of Zelda', 
+    plataforma: 'Nintendo Switch',
+    classificacao: 'Livre' 
+  },
+  { titulo: 'Elden Ring', 
+    plataforma: 'PlayStation 5', 
+    classificacao: '16+' 
+  },
+  { titulo: 'Hollow Knight', 
+    plataforma: 'PC', 
+    classificacao: '18+' 
+  }
+];
+
+jogos.forEach(jogo => {
+  console.log(`Jogo: ${jogo.titulo} | Plataforma: ${jogo.plataforma}`);
+});
