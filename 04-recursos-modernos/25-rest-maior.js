@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function maiorNumero(...numeros) {
+    return Math.max(...numeros);
+}
+
+const teste = maiorNumero(12, 45, 8, 99, 23, 54);
+console.log(teste);
