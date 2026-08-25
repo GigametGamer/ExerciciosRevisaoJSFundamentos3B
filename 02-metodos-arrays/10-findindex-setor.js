@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const Setores = ["Vendas", "Financeiro", "TI", "RH"]
+
+const SaberPosicao = Setores.findIndex(Achar => Achar == "TI")
+
+console.log(SaberPosicao)
