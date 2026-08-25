@@ -7,3 +7,8 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularComissao(venda, comissao){
+    return venda * comissao / 100
+}
+
+console.log(calcularComissao(800,5))
