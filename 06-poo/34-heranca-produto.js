@@ -5,3 +5,39 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+    constructor(nome, preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+
+    exibirDados() {
+        return `Nome: ${this.nome}, Preço: R$ ${this.preco}`;
+    }
+}
+
+class ProdutoDigital extends Produto {
+    constructor(nome, preco, tamanhoArquivo) {
+        super(nome, preco);
+        this.tamanhoArquivo = tamanhoArquivo;
+    }
+
+    exibirDados() {
+        return `${super.exibirDados()}, Tamanho: ${this.tamanhoArquivo}MB`;
+    }
+}
+
+const produto = new Produto();
+
+produto.nome = "Bah"
+produto.preco = 50
+
+console.log(produto.exibirDados())
+
+const produto1 = new ProdutoDigital();
+
+produto1.nome = "Bih"
+produto1.preco = 70
+produto1.tamanhoArquivo = 50;
+
+console.log(produto1.exibirDados())
