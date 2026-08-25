@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+const alunos = [
+    {nome: "Bah", matricula: 1111111},
+    {nome: "Beh", matricula: 2222222},
+    {nome: "Bih", matricula: 103},
+    {nome: "Boh", matricula: 3333333},
+]
+
+const aluno103 = alunos.find(matricula => matricula.matricula === 103)
+
+console.log(aluno103.nome + "," + aluno103.matricula)
