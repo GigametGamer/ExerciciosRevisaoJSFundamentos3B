@@ -4,3 +4,13 @@
 //
 // Escreva sua solução abaixo:
 
+let curso = {
+    nome: "Desenvolvimento Web",
+    modalidade: "Tech",
+
+    descrever() {
+        return `O curso de ${this.nome} é oferecido na modalidade ${this.modalidade}.`;
+    }
+};
+
+console.log(curso.descrever());
