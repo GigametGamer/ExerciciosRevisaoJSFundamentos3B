@@ -5,3 +5,23 @@
 //
 // Escreva sua solução abaixo:
 
+class Aluno {
+
+  #nota;
+
+  get nota() {
+    return this.#nota;
+  }
+
+  set nota(valor) {
+    if (valor >= 0 && valor <= 10) {
+      this.#nota = valor;
+    }
+  }
+}
+
+const aluno = new Aluno();
+
+aluno.nota = 8;
+
+console.log(aluno.nota); 
