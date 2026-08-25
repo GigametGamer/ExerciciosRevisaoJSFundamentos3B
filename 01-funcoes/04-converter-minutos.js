@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function min(Tempo){
+    return `Seus ${Tempo} minutos são equivalentes a ${Tempo*60} Segundos`
+}
+
+console.log(min(59))
