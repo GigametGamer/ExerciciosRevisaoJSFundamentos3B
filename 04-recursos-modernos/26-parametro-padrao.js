@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+function calcular(valor, taxa = 10) {
+  return valor + taxa;
+}
+
+console.log(calcular(100, 25));
+
+console.log(calcular(100));
