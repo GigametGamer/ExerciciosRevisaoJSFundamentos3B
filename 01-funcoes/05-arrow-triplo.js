@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const Triplo = (a) =>{
+    return `O triplo de ${a} é ${a * 3}`
+}
+
+
+for (j = 1; j <=10; j++){
+    console.log(Triplo(j))
+}
