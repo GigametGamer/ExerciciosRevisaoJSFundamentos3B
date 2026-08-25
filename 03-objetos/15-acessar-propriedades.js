@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+let paciente = {
+    nome: "Nick Daves",
+    idade: "18",
+    convenio: "Elixir Merlin",
+    relacoes: "Selwyn Kane"
+}
+
+console.log(paciente)
