@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+let Smartphone = {Marca: "Android Teruel", Modelo: "Bah", Armazenagento: 50, Ligado: true}
+
+console.log(Smartphone)
