@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const numeros = [20, 35, 40, 55]
+
+const numeros2 = numeros.map(numeros => numeros + 5)
+
+console.log(numeros)
+
+console.log(numeros2)
