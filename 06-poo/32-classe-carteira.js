@@ -5,3 +5,37 @@
 //
 // Escreva sua solução abaixo:
 
+class CarteiraDigital {
+  #saldo;
+
+  constructor() {
+    this.#saldo = 0;
+  }
+
+  adicionarCredito(valor) {
+    if (valor > 0) {
+      this.#saldo += valor;
+    }
+  }
+
+  realizarPagamento(valor) {
+    if (valor > this.#saldo) {
+      console.log("Saldo insuficiente.");
+      return;
+    }
+    if (valor > 0) {
+      this.#saldo -= valor;
+    }
+  }
+
+  consultarSaldo() {
+    return this.#saldo;
+  }
+}
+
+const MinhaCarteira = new CarteiraDigital();
+
+MinhaCarteira.adicionarCredito(500)
+console.log(MinhaCarteira.consultarSaldo());
+MinhaCarteira.realizarPagamento(300)
+console.log(MinhaCarteira.consultarSaldo())

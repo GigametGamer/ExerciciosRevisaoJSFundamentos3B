@@ -12,7 +12,7 @@ class Curso {
     this.modalidade = modalidade;
   }
 
-  exibirInformacoes() {
+  Informacoes() {
     console.log(`Curso: ${this.nome} - Duração: ${this.duracao} - Modalidade: ${this.modalidade}`);
   }
 }
@@ -20,5 +20,5 @@ class Curso {
 const curso1 = new Curso("Análise e Desenvolvimento de Sistemas", "2.5 anos", "EAD");
 const curso2 = new Curso("Ciência da Computação", "4 anos", "Presencial");
 
-curso1.exibirInformacoes();
-curso2.exibirInformacoes();
+curso1.Informacoes();
+curso2.Informacoes();
