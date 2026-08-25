@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function Carro(distancia, litros){
+    return litros/distancia
+}
+
+console.log(`${Carro(10, 2)} litros/km`);
