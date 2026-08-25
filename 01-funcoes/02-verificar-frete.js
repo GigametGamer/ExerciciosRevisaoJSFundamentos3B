@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+function Frete(valor){
+    if (valor >= 150){
+        return "Frete Grátis"
+    }
+
+    else {
+        return "Frete Pago"
+    }
+}
+
+console.log(Frete(150))
