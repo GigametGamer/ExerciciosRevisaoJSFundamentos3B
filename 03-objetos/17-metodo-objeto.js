@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+let circulo = {
+    raio: 5,
+
+    calcularArea(){
+        return Math.PI*this.raio*this.raio
+    }
+}
+
+
+console.log(`O Raio do circulo é de ${circulo.raio}, e sua área é de ${circulo.calcularArea()}`)
