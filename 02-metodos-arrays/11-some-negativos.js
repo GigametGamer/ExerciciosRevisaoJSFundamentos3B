@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const Saldos = [120, 50, -20, 300, 75];
+
+const Soma = Saldos.some(negativo => negativo < 0)
+
+console.log(Soma)
