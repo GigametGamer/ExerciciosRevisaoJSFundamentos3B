@@ -4,3 +4,13 @@
 //
 // Escreva sua solução abaixo:
 
+const jsonObjegtos = `[
+  { "id": 1, "descricao": "Estudar JavaScript", "concluida": true },
+  { "id": 2, "descricao": "Fazer exercícios de JSON", "concluida": false },
+  { "id": 3, "descricao": "Revisar o código do projeto", "concluida": false }
+]`;
+
+const arrayDeTarefas = JSON.parse(jsonObjegtos);
+
+console.log("Array convertido:", arrayDeTarefas);
+
