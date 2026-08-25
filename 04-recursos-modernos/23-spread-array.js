@@ -4,3 +4,9 @@
 //
 // Escreva sua solução abaixo:
 
+const familia = ['Ana', 'Bruno', 'Carlos'];
+const amigos = ['Diana', 'Eduardo', 'Fernanda'];
+
+const todosConvidados = [...familia, ...amigos];
+
+console.log(todosConvidados);
